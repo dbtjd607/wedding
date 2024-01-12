@@ -183,51 +183,6 @@ h2.subtitle{
     background:rgb(109, 172, 124);
 }
 
-/* container1 */
-.container1{
-    width:1200px;
-    margin-left:auto;
-    margin-right:auto;
-}
-section.whoami{
-    background-color: rgb(237,242,239);
-    padding-top: 50px ;
-}
-.leftbox{
-    width:60%;
-    float : left;
-    position: relative;
-}
-.leftbox img{
-    position: absolute;
-}
-img.aboutme{
-    top:25px;
-}
-img.aboutme2{
-    top:280px;
-    right: 120px;
-    border: 15px solid rgb(237,242,239);
-    z-index: 2;
-}
-.rightbox{
-    width:40%;
-    float : right;
-}
-.rightbox h1{
-    font-size:36px;
-    line-height: 1.5;
-}
-.rightbox p{
-    line-height: 1.8;
-}
-.whoami .btn{
-    margin-left: 0;
-}
-
-
-
-
 /* container2 */
 
 .main2{
@@ -299,4 +254,32 @@ section.whoami2{
 .btn.btn2{
     width: 230px;
     font-weight: 4;
+}
+.package-box{
+    width: 100%;
+    position: relative;
+}
+.package-box::after{
+    content:"";
+    display: block;
+    padding-bottom: 100%;
+}
+.inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inner img{
+    width: 100%;
+    height: auto;
+}
+.packages .aurore{
+    margin-top: -30;
+    font-size: 24px;
+}
+.packages .btn{
+    margin-left: auto;
+    width: 450px;
+    margin-bottom: -150px;
 }
