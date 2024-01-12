@@ -183,6 +183,51 @@ h2.subtitle{
     background:rgb(109, 172, 124);
 }
 
+/* container1 */
+.container1{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+section.whoami{
+    background-color: rgb(237,242,239);
+    padding-top: 50px ;
+}
+.leftbox{
+    width:60%;
+    float : left;
+    position: relative;
+}
+.leftbox img{
+    position: absolute;
+}
+img.aboutme{
+    top:25px;
+}
+img.aboutme2{
+    top:280px;
+    right: 120px;
+    border: 15px solid rgb(237,242,239);
+    z-index: 2;
+}
+.rightbox{
+    width:40%;
+    float : right;
+}
+.rightbox h1{
+    font-size:36px;
+    line-height: 1.5;
+}
+.rightbox p{
+    line-height: 1.8;
+}
+.whoami .btn{
+    margin-left: 0;
+}
+
+
+
+
 /* container2 */
 
 .main2{
